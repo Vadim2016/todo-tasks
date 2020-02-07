@@ -1,0 +1,161 @@
+.todo-item{
+  list-style: none;
+}
+.form-edit {
+  font-size: 24px;
+  border-bottom: 1px solid #ededed;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px 0 20px;
+  /*cursor: pointer;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.text {
+  font-family: 'Indie Flower', cursive;
+}
+
+.completed label, .completed div textarea {
+  text-decoration: line-through;
+}
+
+.form-edit label {
+  width: 100%;
+}
+.is-auth .taskText{
+  display: inline-block;
+  width: 45%;
+  height: auto;
+  word-break: break-all;
+  margin: 0 10px;
+}
+
+.is-auth .taskName{
+  width: 20%;
+  overflow: hidden;
+  display: inline-block;
+  height: auto;
+  word-break: break-all;
+  margin: 0 10px;
+}
+.is-auth .taskEmail{
+  width: 28%;
+  overflow: hidden;
+  display: inline-block;
+  height: auto;
+  word-break: break-all;
+  margin: 0 10px;
+}
+.taskText{
+  display: inline-block;
+  width: 35%;
+  height: auto;
+  word-break: break-all;
+  margin: 0 10px;
+}
+
+.taskName{
+  width: 30%;
+  overflow: hidden;
+  display: inline-block;
+  height: auto;
+  word-break: break-all;
+  margin: 0 10px;
+}
+.taskEmail{
+  width: 20%;
+  overflow: hidden;
+  display: inline-block;
+  height: auto;
+  word-break: break-all;
+  margin: 0 10px;
+}
+.hidden{
+  display: none;
+}
+.task-rem{
+  color: #f59b9b;
+}
+.task-rem:hover, .task-rem:focus{
+  color: red;
+}
+
+.marker {
+  /*position: absolute;
+  right: 70px;*/
+  width: 2%;
+  color: #9cd69c;
+}
+
+
+.marker:hover, .marker:focus{
+  color: #16a505;
+}
+.fa-check-circle{
+  color: #16a505;
+}
+.block-button{
+  width: 62px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-edit textarea, .form-edit textarea:focus, .form-edit textarea:hover {
+  outline: none;
+  -moz-appearance: none;
+  border: none;
+}
+.form-edit input, .form-edit input:focus, .form-edit input:hover {
+  outline: none;
+  -moz-appearance: none;
+  border: none;
+}
+
+.form-edit input{
+  max-height:40px;
+}
+.form-edit{
+  display: flex;
+  width: 100%;
+}
+.form-edit .taskText textarea{
+  display: inline-block;
+  width: 90%;
+  height: auto;
+  word-break: break-all;
+  margin: 0 10px;
+}
+
+.form-edit .taskName{
+  width: 24%;
+  overflow: hidden;
+  display: inline-block;
+  height: auto;
+  word-break: break-all;
+  margin: 0 10px;
+}
+.form-edit.taskEmail{
+  width: 24%;
+  overflow: hidden;
+  display: inline-block;
+  height: auto;
+  word-break: break-all;
+  margin: 0 10px;
+}
+.form-edit button{
+  background-color: transparent;
+  border: none;
+}
+.taskId{
+  display: none;
+}
+.form-edit .taskName div input , .form-edit .taskEmail div input{
+  display: none;
+}
+button:focus {
+  outline: none;
+}

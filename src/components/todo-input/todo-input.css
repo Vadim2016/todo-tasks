@@ -1,0 +1,79 @@
+.form-task{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.form-task .form-group:nth-child(1){
+  width: 25%;
+}
+.form-task .form-group:nth-child(3){
+  width: 35%;
+}
+.form-task  button{
+  margin: 5px;
+  max-height: 70px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.form-task  button:hover{
+  background-color: transparent;
+}
+.todo-input-wrapper {
+  position: relative;
+  display: flex;
+  border-bottom: 3px solid #dcd6d6;
+}
+.form-task .form-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 90px;
+
+  margin: 5px 8px 3px;
+}
+.form-list{
+  display: flex;
+}
+.error{
+  color: #f53939;
+  font-size: 11px;
+}
+.form-task input {
+  font-family: 'Indie Flower', cursive;
+  border: none;
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 28px;
+  font-style: italic;
+}
+.form-task span{
+  font-family: 'Indie Flower', cursive;
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 28px;
+  font-style: italic;
+}
+
+
+.fa-plus {
+  position: relative;
+  font-size: 18px;
+  top: 5px;
+  right: 1px;
+  width: 28px;
+  height: 15px;
+}
+
+.form-task input::-webkit-input-placeholder {
+  font-family: 'Indie Flower', cursive;
+}
+.form-task input::-moz-placeholder {
+  font-family: 'Indie Flower', cursive;
+}
+.form-task input:-moz-placeholder {
+  font-family: 'Indie Flower', cursive;
+}
+.form-task input:-ms-input-placeholder {
+  font-family: 'Indie Flower', cursive;
+}

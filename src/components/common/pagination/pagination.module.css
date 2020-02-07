@@ -1,0 +1,14 @@
+.activelist{
+    color: red;
+    font-weight: 700;
+}
+.item_article span{
+    cursor: pointer;
+    padding: 2px;
+}
+.item_article button{
+    outline: none;
+}
+.item_article span{
+    outline: none;
+}

@@ -1,0 +1,31 @@
+
+.item_article{
+    width: 60%;
+    text-align: center;
+}
+.item_article span{
+    cursor: pointer;
+    padding: 2px;
+}
+
+.footer {
+  position: relative;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 6px 0 21px;
+  justify-content: space-between;
+}
+
+.select-group {
+    position: relative;
+    z-index: 1;
+    margin: 0px 8px;
+}
+.form-params{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+

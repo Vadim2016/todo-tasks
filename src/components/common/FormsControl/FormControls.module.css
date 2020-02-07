@@ -1,0 +1,13 @@
+
+.error input  {
+    border: 1px solid red;
+    margin-bottom: 2px;
+}
+.error span  {
+    color: red;
+    font-size: 12px;
+}
+
+.error div{
+    height: 10px;
+}

@@ -1,0 +1,32 @@
+.login-submit button{
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 600;
+    color: #333;
+    padding: 10px 12px;
+    border-radius: 5px;
+    background-color: #d8aedc;
+    border: none;
+}
+.form-login .form-group{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    min-height: 50px;
+}
+.form-login .form-group div{
+    display: flex;
+    flex-direction: column;
+}
+.form-login .form-group input {
+    border: 1px solid #d8d8d8;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px 5px;
+}
+
+.login-checbox{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
